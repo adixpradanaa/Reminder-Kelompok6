@@ -98,12 +98,12 @@ public class MainActivity extends AppCompatActivity {
         if (insertData) {
             try {
                 populateListView();
-                toastMsg("Tugas di tambahkan");
+                toastMsg("Tugas berhasil ditambahkan");
             } catch (Exception e) {
                 e.printStackTrace();
             }
         } else
-            toastMsg("Opps.. terjadi kesalahan saat menyimpan!");
+            toastMsg("Terjadi kesalahan saat menyimpan");
     }
 
     //Mengambil seluruh data dari database ke listview
@@ -220,12 +220,12 @@ public class MainActivity extends AppCompatActivity {
                                 cal.set(Calendar.SECOND, 0);
                                 Log.d(TAG, "onTimeSet: Time has been set successfully");
                             }
-                        }, cal.get(Calendar.HOUR), cal.get(Calendar.MINUTE), false);
+                        }, cal.get(Calendar.HOUR), cal.get(Calendar.MINUTE), true);
                 timePickerDialog.show();
             }
         });
 
-        dialogBuilder.setTitle("Buat tugas baru");
+        dialogBuilder.setTitle("Buat Tugas Baru");
         dialogBuilder.setPositiveButton("Tambah", new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int whichButton) {
                 String title = judul.getText().toString();
@@ -239,11 +239,11 @@ public class MainActivity extends AppCompatActivity {
                         e.printStackTrace();
                     }
                 } else {
-                    toastMsg("Oops, Gak bisa kosong tugas nya.");
+                    toastMsg("Tugas harus terisi.");
                 }
             }
         });
-        dialogBuilder.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+        dialogBuilder.setNegativeButton("Batal", new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int whichButton) {
                 dialog.cancel();
             }
