@@ -15,6 +15,19 @@ Tugas Besar Mobile Programming 1.
 * Mochamad Syarif Noviansyah - 19552011162
 * Yose - 19552011086
 
+## Pengerjaan
+
+1. Memulai mendiskusikan soal mana yang akan dipilih
+2. Mencari di google contoh aplikasi reminder yang telah jadi
+3. Membuat desain awal
+4. Memulai pengerjaan
+5. Desain Logo
+6. Selesai
+
+
+## Logo
+![SS Project](https://i.ibb.co/XC8NYNM/reminder.jpg)
+
 ## Screenshoot Project
 
 ![SS Project](https://i.ibb.co/zbqVrdv/Screenshot-20210815-162746-Reminder-KEL6.png)
