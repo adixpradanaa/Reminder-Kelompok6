@@ -1,6 +1,6 @@
 # Reminder-Kelompok6
-Tugas Besar Mobile Programming 1
-Sekolah Tinggi Teknologi Bandung
+## Tugas Besar Mobile Programming 1
+## Sekolah Tinggi Teknologi Bandung
 
 KELOMPOK 6
 Ketua   : Adi Pradana - 19552011228
