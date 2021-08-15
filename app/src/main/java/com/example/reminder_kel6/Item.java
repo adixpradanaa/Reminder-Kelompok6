@@ -82,7 +82,7 @@ public class Item extends BaseAdapter {
             toastMsg("Tugas di hapus");
         } catch (Exception e) {
             e.printStackTrace();
-            toastMsg("Oppss.. ada kesalahan saat menghapus");
+            toastMsg("Ada kesalahan saat menghapus");
         }
     }
 
